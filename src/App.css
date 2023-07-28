@@ -1,38 +1,172 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: rgb(0, 0, 0);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  color: rgb(255, 255, 255);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.App {
+  position: relative;
+  height: 750px;
+  width: 380px;
+  border-radius: 40px;
+  background-color: rgb(38, 38, 38);
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+svg {
+  fill: rgb(255, 255, 255);
+}
+
+nav {
+  justify-content: space-between;
+  display: flex;
+  padding: 20px 0;
+}
+
+h1,h2, p {
+  margin: 4px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.sub-text {
+  color: rgb(114,114,114);
+} 
+
+h2 {
+  color: rgb(114,114,114);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(114,114,114);
+}
+
+header .info-container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+header .img-container {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+header .img-container img {
+  height: 110%;
+}
+
+header .threads-info {
+  background-color: rgb(59,59,59);
+  color: rgb(114,114,114);
+  font-size: 13px;
+  padding: 3px 6px;
+  border-radius: 20px;
+}
+.primary {
+  border: rgb(114,114,114) solid 1px;
+  background-color: transparent;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 7px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  width: 100%;
+}
+
+.button-container button {
+  border: none;
+  background-color: transparent;
+  padding: 7px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  width: 50%;
+  border-bottom: solid 1px rgb(114,114,114);
+}
+
+.button-container button.current {
+  border-bottom: rgb(255, 255, 255) solid 2px;
+}
+
+.feed-card .icons svg {
+  height: 22px;
+  padding: 0 ;
+  margin: 5px;
+}
+
+
+.feed-card {
+  border-bottom: rgb(114,114,114) solid 1px;
+  padding: 20px 0;
+}
+
+.feed-card .text-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feed-card .img-container {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.feed-card .img-container img {
+  height: 110%;
+}
+
+.feed {
+  height: 330px;
+  overflow-y: scroll;
+}
+
+input {
+  background-color: transparent;
+  border: solid 1px rgb(114,114,114);
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: rgb(250, 250, 250);
+}
+
+input:focus {
+  outline: none;
+}
+
+.popup {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 650px;
+  width: 380px;
+  border-radius: 40px;
+  background-color: rgb(38, 38, 38);
+  overflow-y: scroll;
+  padding: 20px;
+  box-shadow: rgb(0, 0, 0.25) 0 54px 55px, rgb(0, 0, 0.12) 0 -12px 30px, rgb(0, 0, 0.12) 0 4px 6px, rgb(0, 0, 0.17) 0 12px 13px, rgb(0, 0, 0.9) 0 -3px 5px;
+}
+
+.write-icon {
+  fill: rgb(250, 250, 250);
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 170px;
+  cursor: pointer;
 }

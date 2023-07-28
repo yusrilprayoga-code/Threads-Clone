@@ -1,0 +1,169 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "user_uuid": "866a694b-d947-4dd7-8605-8a72808f6268",
+      "username": "Yusril Prayoga",
+      "handle": "Keirynn",
+      "bio": "I am Yusril Prayoga, a fan of creative content and technology. My hobby is making videos on YouTube and developing code in various programming languages. I try to inspire people with interesting content and keep learning to improve the quality. Let's collaborate and together create great things in the world of YouTube and coding!",
+      "link": "https://github.com/yusrilprayoga-code",
+      "img": "https://th.bing.com/th/id/OIP.ho7hCKNowRHh7u5wu1aMWQHaF9?pid=ImgDet&rs=1",
+      "instagram_url": "https://www.instagram.com/moh_yusrilprayoga/",
+      "followers": [
+        {
+          "user_uuid": "30d19d20-f6f2-4664-9b21-46b0206f4923"
+        },
+        {
+          "user_uuid": "07f186dd-bcbf-4f32-91b0-15a8fc3b7df8"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "user_uuid": "30d19d20-f6f2-4664-9b21-46b0206f4923",
+      "username": "Bambang Setiawan",
+      "handle": "Bams",
+      "bio": "I am Bambang, Youtuber",
+      "link": "https://github.com/yusrilprayoga-code",
+      "img": "https://unsplash.com/photos/bodgc6H44FA",
+      "instagram_url": "https://www.instagram.com/bambangbudisetiawan_/",
+      "followers": [
+        {
+          "user_uuid": "866a694b-d947-4dd7-8605-8a72808f6268"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_uuid": "07f186dd-bcbf-4f32-91b0-15a8fc3b7df8",
+      "username": "Azmi Nuraini",
+      "handle": "azmeee",
+      "bio": "hi iam Azmi, Student",
+      "link": "https://github.com/yusrilprayoga-code",
+      "img": "https://unsplash.com/photos/eFz9y3cutNM",
+      "instagram_url": "https://www.instagram.com/aztode/",
+      "followers": [
+        {
+          "user_uuid": "30d19d20-f6f2-4664-9b21-46b0206f4923"
+        },
+        {
+          "user_uuid": "866a694b-d947-4dd7-8605-8a72808f6268"
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": 0,
+      "timestamp": "Tue Jul 25 2023 23:36:44 GMT+0800 (Central Indonesia Time)",
+      "thread_from": "866a694b-d947-4dd7-8605-8a72808f6268",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Hello World",
+      "likes": [
+        {
+          "user_uuid": "07f186dd-bcbf-4f32-91b0-15a8fc3b7df8"
+        },
+        {
+          "user_uuid": "30d19d20-f6f2-4664-9b21-46b0206f4923"
+        },
+        {
+          "user_uuid": "866a694b-d947-4dd7-8605-8a72808f6268"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "timestamp": "Tue Jul 25 2023 00:36:44 GMT+0800 (Central Indonesia Time)",
+      "thread_from": "866a694b-d947-4dd7-8605-8a72808f6268",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Awesome Thread",
+      "likes": [
+        {
+          "user_uuid": "866a694b-d947-4dd7-8605-8a72808f6268"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "timestamp": "Tue Jul 25 2023 01:22:13 GMT+0800 (Central Indonesia Time)",
+      "thread_from": "866a694b-d947-4dd7-8605-8a72808f6268",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Another one",
+      "likes": [
+        {
+          "user_uuid": "866a694b-d947-4dd7-8605-8a72808f6268"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "timestamp": "Tue Jul 25 2023 03:11:23 GMT+0800 (Central Indonesia Time)",
+      "thread_from": "30d19d20-f6f2-4664-9b21-46b0206f4923",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Wow",
+      "likes": []
+    },
+    {
+      "id": 4,
+      "timestamp": "Tue Jul 25 2023 04:13:23 GMT+0800 (Central Indonesia Time)",
+      "thread_from": "30d19d20-f6f2-4664-9b21-46b0206f4923",
+      "thread_to": "866a694b-d947-4dd7-8605-8a72808f6268",
+      "reply_to": 3,
+      "text": "Besto Friendo",
+      "likes": []
+    },
+    {
+      "timestamp": "2023-07-28T15:57:26.593Z",
+      "thread_from": "866a694b-d947-4dd7-8605-8a72808f6268",
+      "thread_to": "866a694b-d947-4dd7-8605-8a72808f6268",
+      "reply_to": null,
+      "text": "hello",
+      "likes": [],
+      "id": 5
+    },
+    {
+      "timestamp": "2023-07-28T16:03:35.906Z",
+      "thread_from": "866a694b-d947-4dd7-8605-8a72808f6268",
+      "thread_to": "866a694b-d947-4dd7-8605-8a72808f6268",
+      "reply_to": 5,
+      "text": "hello again",
+      "likes": [],
+      "id": 6
+    },
+    {
+      "timestamp": "2023-07-28T16:06:51.722Z",
+      "thread_from": "866a694b-d947-4dd7-8605-8a72808f6268",
+      "thread_to": "866a694b-d947-4dd7-8605-8a72808f6268",
+      "reply_to": null,
+      "text": "hello first thread",
+      "likes": [],
+      "id": 7
+    },
+    {
+      "timestamp": "2023-07-28T16:09:02.649Z",
+      "thread_from": "866a694b-d947-4dd7-8605-8a72808f6268",
+      "thread_to": "866a694b-d947-4dd7-8605-8a72808f6268",
+      "reply_to": 7,
+      "text": "no replies",
+      "likes": [],
+      "id": 8
+    },
+    {
+      "timestamp": "2023-07-28T16:10:53.249Z",
+      "thread_from": "866a694b-d947-4dd7-8605-8a72808f6268",
+      "thread_to": "866a694b-d947-4dd7-8605-8a72808f6268",
+      "reply_to": null,
+      "text": "hai hai hai",
+      "likes": [
+        {
+          "user_uuid": "866a694b-d947-4dd7-8605-8a72808f6268"
+        }
+      ],
+      "id": 9
+    }
+  ]
+}
