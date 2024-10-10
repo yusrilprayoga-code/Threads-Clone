@@ -1,72 +1,105 @@
-# Getting Started with Create React App
+# Threads Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This project is a clone of the popular Threads app, built using React for the frontend and json-server for a mock backend. It demonstrates the power of React for building interactive user interfaces and showcases how to use a JSON file as a simple database for rapid prototyping and development.
 
-## Available Scripts
+## Features
+- 📝 Create and view threads
+- 💬 Comment on threads
+- 👤 User profiles
+- 🔄 Real-time updates using json-server
+- 🎨 Responsive design
+- 🚀 Fast development and prototyping
 
-In the project directory, you can run:
+## Technologies Used
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [json-server](https://github.com/typicode/json-server) - Get a full fake REST API with zero coding
+- [React Router](https://reactrouter.com/) - Declarative routing for React
+- [Axios](https://axios-http.com/) - Promise based HTTP client for the browser and node.js
+- [CSS Modules](https://github.com/css-modules/css-modules) - Locally scoped CSS
 
-'json-server --watch db.json'
+## Prerequisites
+- Node.js (v14 or later)
+- npm or yarn
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository:
+   ```
+   git clone https://github.com/yusrilprayoga-code/threads-clone.git
+   cd threads-clone
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-### `npm test`
+3. Start the json-server (make sure you're in the project directory):
+   ```
+   json-server --watch db.json
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. In a new terminal, start the React development server:
+   ```
+   npm start
+   ```
 
-### `npm run build`
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Running the Backend
+To start the mock backend server, run:
+```
+json-server --watch db.json
+```
+This will start the server at [http://localhost:3000](http://localhost:3000).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Running the Frontend
+In a separate terminal, run:
+```
+npm start
+```
+This will start the React app at [http://localhost:3001](http://localhost:3001) (or another available port if 3001 is in use).
 
-### `npm run eject`
+### Creating Content
+1. Use the "New Thread" button to create a new thread.
+2. Click on a thread to view and add comments.
+3. Visit user profiles by clicking on usernames.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Customizing Data
+1. Open `db.json` in the root directory.
+2. Modify the JSON structure to add or change data.
+3. The changes will be immediately reflected in the app.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Project Structure
+```
+├── public/
+├── src/
+│   ├── components/  # React components
+│   ├── pages/       # Page components
+│   ├── styles/      # CSS Module files
+│   ├── services/    # API services
+│   ├── App.js       # Main App component
+│   └── index.js     # Entry point
+├── db.json          # JSON database file
+├── package.json
+└── README.md        # This file
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Learn More
+## License
+This project is open source and available under the [MIT License](LICENSE).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Acknowledgements
+- [Threads](https://www.threads.net/) for the inspiration
+- [json-server](https://github.com/typicode/json-server) for the easy-to-use mock backend
+- [Create React App](https://create-react-app.dev/) for the React project setup
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Developed with ❤️ by Yusril Prayoga
